@@ -2,9 +2,13 @@
 
 This repository is the official implementation of [Dendritic Integration Inspired Artificial Neural Networks Capture Data Correlation](https://arxiv.org/abs/2030.12345). 
 
+![](/img/Dit_CNN.jpeg)
+**Figure:** **A.** Biological experiments with coupled inputs demonstrate the quadratic integration rule of
+dendritic neurons (From [Hao et al. 2009](https://www.pnas.org/doi/abs/10.1073/pnas.0912022106)). __B.__ Numerical experiments confirmed the quadratic integration rule under general
+cases, along with a comprehensive theoretical framework for single neuron computation (From [Li et al. 2023](https://onlinelibrary.wiley.com/doi/abs/10.1002/cpa.22020)). **C.**
+An illustration of the biological interpretation of our Dit-CNNs.
 
-
->📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
+Our Dit-CNN is inspired by neural networks in the visual system. For example, different types of cone cells encode various color (channel) information, and retinal ganglion cells receive inputs from multiple types of cone cells, the responses can be modeled as having receptive fields (convolutional kernels) related to different color channels ( $w_1 * x_1, w_2 * x_2, w_3 * x_3$ ). When multiple channel inputs are present, traditional CNNs simply linearly sum the corresponding responses. In contrast, neurons integrate these inputs with an additional quadratic term based on the dendritic bilinear integration rule. This approach leads to the formulation of our Dit-CNN after simplification. 
 
 ## Requirements
 
@@ -13,8 +17,6 @@ To install requirements:
 ```setup
 pip install -r requirements.txt
 ```
-
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
 
 ## Training
 
