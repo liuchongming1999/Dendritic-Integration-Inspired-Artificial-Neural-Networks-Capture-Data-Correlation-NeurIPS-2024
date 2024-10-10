@@ -1,0 +1,11 @@
+numpy
+matplotlib
+opencv
+scipy
+scikit-learn
+panda  
+jupyter
+ipykernel
+ipython
+torch
+timm
