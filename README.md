@@ -2,9 +2,8 @@
 
 This repository is the official implementation of [Dendritic Integration Inspired Artificial Neural Networks Capture Data Correlation](https://arxiv.org/abs/2030.12345). 
 
-![](/img/Dit_CNN.jpeg)
-**Figure:** **A.** Biological experiments with coupled inputs demonstrate the quadratic integration rule of
-dendritic neurons (From [Hao et al. 2009](https://www.pnas.org/doi/abs/10.1073/pnas.0912022106)). __B.__ Numerical experiments confirmed the quadratic integration rule under general
+![](/img/interpretation.jpeg)
+**Figure:** **A.** Experiments confirmed the quadratic integration rule under general
 cases, along with a comprehensive theoretical framework for single neuron computation (From [Li et al. 2023](https://onlinelibrary.wiley.com/doi/abs/10.1002/cpa.22020)). **C.**
 An illustration of the biological interpretation of our Dit-CNNs.
 
